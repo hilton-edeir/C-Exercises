@@ -15,12 +15,22 @@ int main(){
     float nota_final;
 
     printf("*** INTRODUCAO A PROGRAMACAO ***\n\n");
-    printf("Nota do 1º teste (0 a 20): ");
-    scanf("%f", &nota1);
-    printf("Nota do 2ª nota (0 a 20): ");
-    scanf("%f", &nota2);
-    printf("Nota do exame (0 a 20): ");
-    scanf("%f", &nota_exame);
+
+    do {
+        printf("Nota do 1º teste (0 a 20): ");
+        scanf("%f", &nota1);
+    } while(nota1 < 0 || nota1 > 20);
+    
+    do {
+        printf("Nota do 2º teste (0 a 20): ");
+        scanf("%f", &nota2);
+    } while(nota2 < 0 || nota2 > 20);
+
+    do {
+        printf("Nota do exame (0 a 20): ");
+        scanf("%f", &nota_exame);
+    } while(nota_exame < 0 || nota_exame > 20);
+    
 
     nota1 = (nota1 * 2) / 20;
     nota2 = (nota2 * 2) / 20;
