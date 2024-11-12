@@ -9,7 +9,34 @@ destinadas a consumo próprio e à produção de cada um dos vinhos.
 */
 
 int main(){
+    float peso_uvas;
+    float uvas_consumo;
+    float uvas_cooperativa;
+    float uvas_vinho_tinto;
+    float uvas_vinho_branco;
 
-    printf("*** ***\n\n");
+    printf("*** CALCULO DE PRODUCAO DE VINHO ***\n\n");
+
+    do {
+        printf("Insira a quantidade uva (Kg): ");
+        scanf("%f", &peso_uvas);
+
+        if(peso_uvas <= 0)
+            printf("\nPeso invalido!\n");
+
+    } while(peso_uvas <= 0);
+    
+    uvas_consumo = peso_uvas - (peso_uvas * 0.75);
+    uvas_cooperativa = peso_uvas - uvas_consumo;
+
+    uvas_vinho_tinto = uvas_cooperativa - (uvas_cooperativa * 0.6);
+    uvas_vinho_branco = uvas_cooperativa - uvas_vinho_tinto;
+
+    printf("\n------------------------------");
+    printf("\nConsumo proprio: %.2f Kg", uvas_consumo);
+    printf("\nCooperativa: %.2f Kg", uvas_cooperativa);
+    printf("\nVinho Branco: %.2f Kg", uvas_vinho_branco);
+    printf("\nVinho tinto: %.2f Kg", uvas_vinho_tinto);
+    
     return 0;
 }
