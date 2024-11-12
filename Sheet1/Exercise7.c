@@ -9,7 +9,6 @@ Km/l e o lucro diário.
 */
 
 int main() {
-
     float preco_combustivel = 1.3;
     float conta_km_inicial;
     float conta_km_final;

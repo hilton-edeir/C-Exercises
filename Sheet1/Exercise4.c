@@ -8,7 +8,6 @@ um dos dois testes vale 2 valores e o exame vale 16 valores.
 */
 
 int main(){
-
     float nota1;
     float nota2;
     float nota_exame;

@@ -10,7 +10,6 @@ juntamente com o seu número de identificação
 */
 
 int main() {
-
     int numero_vendedor;
     float salario_fixo;
     float salario_comissao;

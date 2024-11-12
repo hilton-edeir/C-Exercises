@@ -6,7 +6,6 @@ monitor o número de horas, minutos e segundos equivalentes. (Exemplo: 7322 = 2h
 */
 
 int main() {
-
     int tempo;
     int segundo;
     int minuto;
@@ -26,7 +25,8 @@ int main() {
     hora = tempo / 3600;
     minuto = (tempo % 3600) / 60;
     segundo = tempo % 60;
-    
+
+    printf("\n------------------------------------\n");
     printf("%d segundos = %dh %dm %ds ", tempo, hora, minuto, segundo);
 
     return 0;  

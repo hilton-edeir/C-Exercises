@@ -7,9 +7,9 @@ número de peças em bom estado manufacturadas durante 6 dias
 */
 
 int main() {
-
     int quantidade_pecas;
-    int pecas_defeituosas;
+    int pecas_def_dia;
+    int dias;
 
     printf("\n*** EMPRESA DE MOLDES ***\n\n");
 
@@ -20,10 +20,21 @@ int main() {
         if(quantidade_pecas < 0)
             printf("\nQuantidade invalida!\n");
     } while(quantidade_pecas < 0);
-    
-    pecas_defeituosas = (0.06 * quantidade_pecas) * 6;
 
-    printf("");
+    do {
+        printf("Dia(s): ");
+        scanf("%d", &dias);
+
+        if(dias < 0)
+            printf("\nDia invalido!\n");
+    } while(dias < 0);
+    
+    pecas_def_dia = 0.06 * quantidade_pecas;
+    
+    printf("\n---------------------------------------");
+    printf("\nTotal de peças: %d", quantidade_pecas);
+    printf("\nPecas defeituosas por dia: %d", pecas_def_dia);
+    printf("\nPecas defeituosas em %d dias: %d", dias, pecas_def_dia * dias);
 
     return 0;
 }
