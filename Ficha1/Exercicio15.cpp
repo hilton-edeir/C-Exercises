@@ -11,6 +11,8 @@ OBS: Considere que o utilizador só introduz os valores 3, 4 ou 5.
 
 int main() {
     float numero_lados;
+    float perimetro;
+    float area;
 
     printf("\n*** POLIGONO REGULAR ***\n\n");
 
@@ -23,7 +25,16 @@ int main() {
 
     } while(numero_lados != 3 && numero_lados != 4 && numero_lados != 5);
 
-    
+    printf("\n---------------------------------\n");
+    if(numero_lados == 3) {
+        printf("TRIANGULO\nPerimetro = %.2f", numero_lados * 3);
+    }
+    else if(numero_lados == 4) {
+        printf("QUADRADO\nArea = %.2f", numero_lados * numero_lados);
+    }
+    else {
+        printf("PENTAGONO\n");
+    }
     
     return 0;
 }
