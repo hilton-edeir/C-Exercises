@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define PI 3.14
 
-// 3. Elabore um algoritmo que calcule a área e o perímetro de um círculo.
+// 3.Elabore um algoritmo que calcule a área e o perímetro de um círculo.
 
 int main() {
     float raio, perimetro;

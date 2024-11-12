@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-8. Considere que um funcionário desconta 11% do seu ordenado ilíquido para a Segurança Social
+8.Considere que um funcionário desconta 11% do seu ordenado ilíquido para a Segurança Social
 e 25% para o IRS. Elabore um algoritmo que obtenha o vencimento ilíquido de um funcionário e
 calcule o valor de cada parcela dos descontos assim como o valor do ordenado líquido
 */

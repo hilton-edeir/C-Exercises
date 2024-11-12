@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-Construa um algoritmo para ler dois valores e seleccione uma das seguintes operações a ser
+16.Construa um algoritmo para ler dois valores e seleccione uma das seguintes operações a ser
 executada (1. Adição, 2. Subtracção, 3. Divisão, 4. Multiplicação). O Algoritmo deve calcular e
 escrever o resultado dessa operação com base nos dois valores lidos.
 */

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-11. Uma empresa de moldes, a trabalhar 8 horas por dia, possui a capacidade de produzir 1300
+11.Uma empresa de moldes, a trabalhar 8 horas por dia, possui a capacidade de produzir 1300
 peças. Sabendo que 13% desse material possui defeito, elabore um algoritmo que calcule o
 número de peças em bom estado manufacturadas durante 6 dias
 */

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* 
-5. Uma empresa de venda de carros usados paga aos seus funcionários vendedores um salário
+5.Uma empresa de venda de carros usados paga aos seus funcionários vendedores um salário
 fixo por mês, mais uma comissão (de valor fixo) por cada carro vendido, acrescido de 5% do valor
 total de vendas efectuadas pelo funcionário ao longo do mês. Estabeleça um algoritmo que leia o
 número do vendedor, o número de carros por ele vendidos, o valor total de suas vendas, o salário

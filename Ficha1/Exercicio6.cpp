@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-6. Escreva um algoritmo para calcular o número de eleitores (votantes) de um município, tendo por
+6.Escreva um algoritmo para calcular o número de eleitores (votantes) de um município, tendo por
 base o número de votos brancos, nulos e válidos. Deve também calcular e escrever a percentagem
 que cada tipo de voto representa em relação ao total de votantes
 */

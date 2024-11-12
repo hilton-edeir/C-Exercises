@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-10. Especifique o algoritmo de um programa que leia um número inteiro de segundos e escreva no
+10.Especifique o algoritmo de um programa que leia um número inteiro de segundos e escreva no
 monitor o número de horas, minutos e segundos equivalentes. (Exemplo: 7322 = 2h 2m 2s)
 */
 

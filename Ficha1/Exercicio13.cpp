@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-13. Desenvolva o algoritmo de um programa que efectue a leitura de três valores inteiros a partir
+13.Desenvolva o algoritmo de um programa que efectue a leitura de três valores inteiros a partir
 do teclado e escreva o maior no monitor.
 */
 

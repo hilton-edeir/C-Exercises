@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-14. Elabore o algoritmo de um programa que calcule o valor total a pagar por determinado artigo,
+14.Elabore o algoritmo de um programa que calcule o valor total a pagar por determinado artigo,
 sabendo o tipo de artigo e o seu preço sem IVA. Suponha que a taxa de IVA é de 5 % para os
 bens essenciais, 30% para os produtos de luxo e 20 % para os restantes.
 */
