@@ -19,7 +19,7 @@ int main() {
     float preco_total_vendido = 0;
     float comissao_venda = 0;
 
-    printf("*** SALARIO MENSAL DOS FUNCIONARIOS ***\n\n");
+    printf("\n*** SALARIO MENSAL DOS FUNCIONARIOS ***\n\n");
     
     do {
         printf("Numero do vendedor: ");

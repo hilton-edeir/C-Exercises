@@ -6,7 +6,7 @@
 int main() {
     float raio, perimetro;
 
-    printf("*** PERIMETRO DE UM CIRCULO ***\n\n");
+    printf("\n*** PERIMETRO DE UM CIRCULO ***\n\n");
     
     do {
         printf("Insira o raio do circulo (cm): ");

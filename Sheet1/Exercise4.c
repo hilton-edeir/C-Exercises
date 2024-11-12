@@ -14,7 +14,7 @@ int main(){
     float nota_exame;
     float nota_final;
 
-    printf("*** INTRODUCAO A PROGRAMACAO ***\n\n");
+    printf("\n*** INTRODUCAO A PROGRAMACAO ***\n\n");
 
     do {
         printf("Nota do 1º teste (0 a 20): ");
