@@ -23,11 +23,13 @@ int main() {
     printf("Total de votos nulos: ");
     scanf("%d", &votos_nulos);
 
+    total_votos = votos_validos + votos_em_branco + votos_nulos;
+
     printf("\n--------------------------------");
     printf("\nTotal de votos: %d", total_votos);
-    printf("\nVotos validos: %d (%.2f %%)", votos_validos, (votos_validos * 100) / total_votos);
-    printf("\nvotos em branco: %d (%.2f %%)", votos_em_branco, (votos_em_branco * 100) / total_votos);
-    printf("\nVotos nulos: %d (%.2f %%)", votos_nulos, (votos_nulos * 100) / total_votos);
+    printf("\nVotos validos: %d (%.1f%%)", votos_validos, (votos_validos * 100.0) / total_votos);
+    printf("\nvotos em branco: %d (%.1f%%)", votos_em_branco, (votos_em_branco * 100.0) / total_votos);
+    printf("\nVotos nulos: %d (%.1f%%)", votos_nulos, (votos_nulos * 100.0) / total_votos);
 
     return 0;
 }
