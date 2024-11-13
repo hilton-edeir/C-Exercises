@@ -6,7 +6,7 @@ int main() {
     int quant_alimento;
     float valor_medio = 0;
     int total_alunos = 0;
-    int total_alimentos_doados = 0;
+    float total_alimentos_doados = 0;
     int aluno_maior_doador = 0;
     int quantidade_maior = 0;
 
@@ -16,7 +16,7 @@ int main() {
         getchar(); // ou fflush(stdin)
 
         if(numero_aluno == 0) {
-            printf("Total de alimentos doados: %.2f Euros", total_alimentos_doados);
+            printf("\nTotal de alimentos doados: %.2f Euros", total_alimentos_doados);
             printf("\nValor medio: %.2f", valor_medio);
             printf("\nAluno com maior doacao: %d", aluno_maior_doador);
             break;
@@ -52,7 +52,6 @@ int main() {
                     total_alimentos_doados = total_alimentos_doados + (1.04 * quant_alimento);
                 }
 
-                
                 valor_medio = total_alimentos_doados / total_alunos;
             }
         }
