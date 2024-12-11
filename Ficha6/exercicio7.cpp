@@ -22,7 +22,7 @@ void deslocar_vetor_direita(int vetor[], int tam) {
 
     vetor_deslocado[0] = vetor[tam-1];
 
-    for(i = 1; i < tam; i++){
+    for(i = 1; i < tam; i++) {
         vetor_deslocado[i] = vetor[i+1];
     }
    
